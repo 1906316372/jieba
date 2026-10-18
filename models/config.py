@@ -1,0 +1,9 @@
+WEIGHTS = 'MyTrainFor_SF6.pt'
+IMGSZ = [640, 640]     
+CONF_THRES = 0.5       # 调整回正常置信度阈值
+IOU_THRES = 0.45       
+MAX_DET = 1000         
+LINE_THICKNESS = 2     
+classes = [2]  # 2: hit
+HIDE_CONF = True       
+HIDE_LABELS = True    

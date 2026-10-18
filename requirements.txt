@@ -1,0 +1,21 @@
+# PyTorch with CUDA support (for RTX 5070 Ti)
+# Install separately using the command below:
+# python -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+# Core dependencies
+opencv-python>=4.5.0
+numpy>=1.19.0
+keyboard>=0.13.5
+mss>=6.1.0
+pywin32>=300
+
+# YOLO model dependencies
+pandas>=1.3.0
+requests>=2.25.0
+Pillow>=8.0.0
+PyYAML>=5.4.0
+tqdm>=4.60.0
+matplotlib>=3.3.0
+seaborn>=0.11.0
+pyautogui>=0.9.50
+

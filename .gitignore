@@ -1,0 +1,23 @@
+# 白名单模式：只上传 Sagat.py 运行所需的文件
+/*
+!/.gitignore
+!/README.md
+!/Sagat.py
+!/MyTrainFor_SF6.pt
+!/requirements.txt
+!/启动.bat
+!/kmNet.cp310-win_amd64.pyd
+
+!/models/
+/models/__pycache__/
+/models/MyTrainFor_SF6.pt
+
+!/kmbox/
+/kmbox/*
+!/kmbox/Readme
+!/kmbox/firmware/
+!/kmbox/python_pyd/
+!/kmbox/Net版怎么接线.doc
+
+__pycache__/
+*.pyc
